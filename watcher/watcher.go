@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/mgutz/str"
-	"gopkg.in/godo.v2/watcher/fswatch"
+	"github.com/blyork/godo/v2/watcher/fswatch"
 )
 
 const (

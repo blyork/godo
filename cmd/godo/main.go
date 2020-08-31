@@ -17,9 +17,9 @@ import (
 	// this MUST not reference any godo/v? directory
 
 	"github.com/mgutz/minimist"
-	"gopkg.in/godo.v2"
-	"gopkg.in/godo.v2/util"
-	"gopkg.in/godo.v2/watcher"
+	"github.com/blyork/godo/v2"
+	"github.com/blyork/godo/v2/util"
+	"github.com/blyork/godo/v2/watcher"
 )
 
 var isWindows = runtime.GOOS == "windows"

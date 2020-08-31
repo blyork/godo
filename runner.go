@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/mgutz/minimist"
-	"gopkg.in/godo.v2/util"
-	"gopkg.in/godo.v2/watcher"
+	"github.com/blyork/godo/v2/util"
+	"github.com/blyork/godo/v2/watcher"
 )
 
 // Message are sent on the Events channel

@@ -9,7 +9,7 @@ rake, gulp.
 
 To install
 
-    go get -u gopkg.in/godo.v2/cmd/godo
+    go get -u github.com/blyork/godo/v2/cmd/godo
 
 ## Godofile
 
@@ -22,7 +22,7 @@ package main
 
 import (
     "fmt"
-    do "gopkg.in/godo.v2"
+    do "github.com/blyork/godo/v2"
 )
 
 func tasks(p *do.Project) {

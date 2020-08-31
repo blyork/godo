@@ -3,7 +3,7 @@ package godo
 import (
 	"time"
 
-	"gopkg.in/godo.v2/util"
+	"github.com/blyork/godo/v2/util"
 	"github.com/mgutz/str"
 )
 
